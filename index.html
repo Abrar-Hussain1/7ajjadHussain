@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAJJAD HUSSAIN PORTFOLIO</title>
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/96a04ce5dd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <!-- <div id="cursor">
+      <div class="cursor__circle"></div>
+    </div> -->
+    <header class="container">
+      <nav class="navbar scroll-section" id="home">
+        <div id="logo"><img src="images/logo.png" alt="" /></div>
+        <button class="nav-btn">Say Hello</button>
+        <div class="hamburger" onclick="toggleNav()">
+          <div class="bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      <div id="myNav" class="overlay">
+        <div id="logo-dark"><img src="images/logo-dark.png" alt="" /></div>
+        <div class="overlay-content">
+          <a href="#home">Home</a> <br />
+          <a href="#about">About Us</a> <br />
+          <a href="#services">Our Services</a> <br />
+          <a href="#work">Our Work</a> <br />
+          <a href="#blogs">Our Blogs</a> <br />
+          <a href="#testimonial">Our Testimonials</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Showcase Section -->
+
+    <div class="showcase container">
+      <div class="showcase-content">
+        <h1 class="showcase-titles title1">
+          Converting <span>Graphic Desing</span>
+        </h1>
+        <h1 class="showcase-titles title2">
+          <span>Web Builder</span> Your Thoughts
+        </h1>
+        <h1 class="showcase-titles title3">
+          <span class="scroll" style="margin-left: 0">Scroll</span> Into Reality
+          <span>UI UX Desing</span>
+          <div class="boxes-parent">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3">Say Hello</div>
+          </div>
+        </h1>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <section id="about" class="aboutUs container scroll-section">
+      <div class="aboutUs-content fade-up">
+        <h2 class="about-title section-title">About Us</h2>
+        <p>
+          We are a leading design firm that provides consultancy services
+          worldwide. Our team is made up of exceptional thinkers, strategists,
+          designers, researchers, developers, and organizers.
+        </p>
+      </div>
+      <div class="boxes-parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3">Say Hello</div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <!-- Services Section -->
+
+    <section class="container scroll-section" id="services">
+      <div class="services-content fade-up">
+        <h3 class="services-title section-title">Our Services</h3>
+        <h3 class="services-heading sections-heading">What We’re Good At</h3>
+        <ul class="accordion fade-up">
+          <li class="accordion-item1">
+            <input type="radio" name="accordion" id="first" checked />
+            <label for="first">Graphic Design</label>
+            <div class="content">
+              <ul>
+                <li>
+                  Planning concepts by studying relevant information and
+                  materials
+                </li>
+                <li>
+                  Illustrating concepts by designing examples of art
+                  arrangement, size, type size and style and submitting them for
+                  approval.
+                </li>
+                <li>
+                  Preparing finished art by operating necessary equipment and
+                  software.
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion-item2">
+            <input type="radio" name="accordion" id="second" />
+            <label for="second">Web Builder</label>
+            <div class="content">
+              <ul>
+                <li>Creating visually appealing and user-friendly websites.</li>
+                <li>
+                  Implementing responsive design to ensure compatibility across
+                  various devices.
+                </li>
+                <li>
+                  Integrating content management systems for easy website
+                  maintenance.
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion-item3">
+            <input type="radio" name="accordion" id="third" />
+            <label for="third">Web Development</label>
+            <div class="content">
+              <ul>
+                <li>
+                  Building dynamic and interactive websites using modern web
+                  technologies.
+                </li>
+                <li>
+                  Implementing server-side programming and database integration.
+                </li>
+                <li>
+                  Optimizing website performance and ensuring cross-browser
+                  compatibility.
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion-item4">
+            <input type="radio" name="accordion" id="fourth" />
+            <label for="fourth">Web Design</label>
+            <div class="content">
+              <ul>
+                <li>
+                  Creating aesthetically pleasing website layouts and visual
+                  elements.
+                </li>
+                <li>
+                  Choosing appropriate color schemes, typography, and imagery.
+                </li>
+                <li>
+                  Ensuring intuitive user experience and effective information
+                  architecture.
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion-item5">
+            <input type="radio" name="accordion" id="fifth" />
+            <label for="fifth">UIUX Design</label>
+            <div class="content">
+              <ul>
+                <li>
+                  Designing user interfaces that are intuitive and easy to
+                  navigate.
+                </li>
+                <li>
+                  Creating wireframes, mockups, and prototypes to visualize the
+                  user experience.
+                </li>
+                <li>
+                  Conducting user research and usability testing to optimize the
+                  interface design.
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <!-- Our work -->
+
+    <section class="work-section container scroll-section" id="work">
+      <div class="work-content fade-up">
+        <h2 class="work-title section-title">Our Work</h2>
+        <h3 class="work-heading sections-heading">
+          Powerful Design & Strong Interface
+        </h3>
+        <div class="work-boxes">
+          <div class="work-box work-box1"></div>
+          <div class="work-box work-box2"></div>
+          <div class="work-box work-box3"></div>
+          <div class="work-box work-box4">
+            <div class="boxes-parent">
+              <div class="box box1"></div>
+              <div class="box box2"></div>
+              <div class="box box3">View More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <!-- Blog Section -->
+
+    <section class="blog-section container scroll-section" id="blogs">
+      <div class="blogs-content fade-up">
+        <h2 class="blogs-title section-title">Our Blogs</h2>
+        <h3 class="blogs-heading sections-heading">We Know What Were Doing</h3>
+        <div class="blogs blog1">
+          <div class="blog-info right-visible">
+            <a href="#"
+              >How to attract the right clients and get the work you want to be
+              doing</a
+            >
+            <p>3 Days Ago <span class="info-line"></span> 10 Mins Read</p>
+          </div>
+          <div class="blog-img"><img src="" alt="" /></div>
+        </div>
+        <div class="line"></div>
+        <div class="blogs blog2">
+          <div class="blog-info right-visible">
+            <a href="#" >26 best online business ideas for 2023</a>
+            <p>6 Days Ago <span class="info-line"></span> 15 Mins Read</p>
+          </div>
+          <div class="blog-img"><img src="" alt="" /></div>
+        </div>
+        <div class="line"></div>
+        <div class="blogs blog3">
+          <div class="blog-info right-visible">
+            <a href="#">How to talk to your clients about anything</a>
+            <p>10 Days Ago <span class="info-line"></span> 12 Mins Read</p>
+          </div>
+          <div class="blog-img"><img src="" alt="" /></div>
+        </div>
+        <div class="boxes-parent">
+          <div class="box box1"></div>
+          <div class="box box2"></div>
+          <div class="box box3">View More</div>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <!-- Testimonials  -->
+
+    <section class="testimonial-section container scroll-section" id="testimonial">
+      <div class="testimonials-content fade-up">
+        <h2 class="testimonial-title section-title">Our Testimonials</h2>
+        <h3 class="testimonial-heading sections-heading">What They Are Say</h3>
+        <div class="testimonial-boxes">
+          <div class="testimonial-content">
+            <div class="item active">
+              <div class="review1">
+                <div class="img-box"></div>
+                <div class="testimonial-line"></div>
+                <div class="review-content">
+                  <p>
+                    Great quality and excellent service had a great experience
+                    working with IDEAHUB to create custom web development for
+                    me. She immediately sent me a sample and I knew right away
+                    that the quality of the bottle and, more importantly.
+                  </p>
+                  <p class="author">Diego Lugano</p>
+                  <p class="profession">
+                    CEO DANANIE<span class="info-line"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review1">
+                <div class="img-box"></div>
+                <div class="testimonial-line"></div>
+                <div class="review-content">
+                  <p>
+                    I was amazed by the creativity and attention to detail that IDEAHUB brought to my project. They understood my vision and transformed it into a stunning website that exceeded my expectations.
+                  </p>
+                  <p class="author">Robert Downey</p>
+                  <p class="profession">
+                    CEO COSWAY<span class="info-line"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review1">
+                <div class="img-box"></div>
+                <div class="testimonial-line"></div>
+                <div class="review-content">
+                  <p>
+                    Working with IDEAHUB was a game-changer for my business. Their expertise in UX/UI design helped us create a user-friendly and visually appealing website that has significantly improved our customer engagement.
+                  </p>
+                  <p class="author">Steve Jobs</p>
+                  <p class="profession">
+                    CEO PATRIN<span class="info-line"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review1">
+                <div class="img-box"></div>
+                <div class="testimonial-line"></div>
+                <div class="review-content">
+                  <p>
+                    I am extremely satisfied with the services provided by IDEAHUB. Their attention to detail and creativity in web development exceeded my expectations. They delivered a stunning website that perfectly represents my brand.
+                  </p>
+                  <p class="author">Lauren Dase</p>
+                  <p class="profession">
+                    CEO SOVA<span class="info-line"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button id="previous"><i class="fa fa-arrow-left"></i></button>
+              <button id="next"><i class="fa fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <div class="container">
+      <div class="textshow">
+        <h3>Let's Start</h3>
+        <div class="textline2">
+          <h3>Something</h3>
+          <div class="boxes-parent">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3">Say Hello</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <!-- Footer  -->
+
+    <footer class="container">
+      <div class="footer-content">
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#blogs">Our Blogs</a></li>
+          <li><a href="#testimonial">Our Testimonials</a></li>
+        </ul>
+        <div class="footer-social-links">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="line"></div>
+        <div class="main-footer">
+          <div class="main-footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Cookies</a>
+          </div>
+          <p>Abrar Hussain &copy; 2023 All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
